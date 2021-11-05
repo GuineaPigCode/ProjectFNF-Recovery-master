@@ -25,18 +25,18 @@ Once that is done you can open up a command line in the project's directory and 
 
 # Credits 
 
-* FNF Recovery Team (LOL Only me)
+FNF Recovery Team (LOL Only me)
 * GuineaPigCode - Programmer
 
-* FNF Whitty Team
+FNF Whitty Team
 * Kade Dev - Programmer
 * @Nate Anim8 - animation help, charting
 * sock.clip - Musician, Main Animator
 
-* FNF Sky Team (Only 1)
+FNF Sky Team (Only 1)
 * bbpanzu
 
-* Original Creators The Friday Night Funkin
+Original Creators The Friday Night Funkin
 * ninjamuffin99 (me!) - Programmer
 * PhantomArcade3K and Evilsk8r - Art
 * Kawaisprite - Musician
