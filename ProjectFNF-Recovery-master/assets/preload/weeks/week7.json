@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"lo-fight",
+			"whitty",
+			[
+				29,
+				30,
+				53
+			]
+		],
+		[
+			"overhead",
+			"whitty",
+			[
+				29,
+				30,
+				53
+			]
+		],
+		[
+			"ballistic",
+			"whittyba",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Vs Whitty",
+	"weekName": "Bonus Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

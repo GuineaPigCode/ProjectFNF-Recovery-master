@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["wife-forever", "sky", [146, 113, 253]],
+		["sky", "sky", [146, 113, 253]],
+		["manifest", "skydemon", [255, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "VsSky Fangirl",
+	"weekBefore": "Week 2",
+	"weekName": "Week 2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

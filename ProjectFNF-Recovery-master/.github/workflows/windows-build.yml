@@ -1,0 +1,49 @@
+name: Windows Build
+
+on:
+    push:
+        tags:
+            - '*'
+    pull_request:
+        branches: [main]
+
+    workflow_dispatch:
+
+jobs:
+    buildWindows:
+        runs-on: windows-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - uses: krdlab/setup-haxe@master
+              with:
+                  haxe-version: 4.1.5
+            - name: Install Dependancies
+              run: |
+                  haxelib setup C:/haxelib
+                  haxelib install lime 7.9.0
+                  haxelib install flixel
+                  haxelib run lime setup flixel
+                  haxelib run lime setup
+                  haxelib install flixel-tools
+                  haxelib run flixel-tools setup -y
+                  haxelib install flixel-addons
+                  haxelib install flixel-ui
+                  haxelib install hscript
+                  haxelib install newgrounds
+                  haxelib install flixel-addons
+                  haxelib install linc_luajit
+                  haxelib git polymod https://github.com/larsiusprime/polymod.git
+                  haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+                  haxelib git openfl https://github.com/openfl/openfl
+                  haxelib install actuate
+                  haxelib list
+              shell: cmd
+            - name: Compile
+              run: haxelib run lime build windows
+            - name: Publish Artifact
+              uses: actions/upload-artifact@v2
+              with:
+                  name: windowsBuild
+                  path: export/release/windows/bin
