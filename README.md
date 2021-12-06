@@ -2,14 +2,6 @@
 * Engine: Project Engine
 * VersionMOD: 0.5.8
 * Version: 0.2.7.1
-# Friday Night Funkin Recovery Info
-[![Updated](https://img.shields.io/github/last-commit/ProjectFNF/ProjectFNF?label=Updated&style=for-the-badge)](https://github.com/ProjectFNF/ProjectFNF/commits/main)
-![Code Size](https://img.shields.io/github/languages/code-size/ProjectFNF/ProjectFNF?style=for-the-badge)
-[![GitHub release](https://img.shields.io/github/v/tag/ProjectFNF/ProjectFNF?label=release&style=for-the-badge)](https://github.com/ProjectFNF/ProjectFNF/releases/latest)
-
-![Windows CI Build](https://img.shields.io/github/workflow/status/ProjectFNF/ProjectFNF/Windows%20Build/main?label=Windows%20CI%20Build&style=for-the-badge)
-![macOS CI Build](https://img.shields.io/github/workflow/status/ProjectFNF/ProjectFNF/macOS%20Build/main?label=macOS%20CI%20Build&style=for-the-badge)
-![Linux CI Build](https://img.shields.io/github/workflow/status/ProjectFNF/ProjectFNF/Linux%20Build/main?label=Linux%20CI%20Build&style=for-the-badge)
 # Installing the Required Programs
 https://github.com/ninjamuffin99/Funkin#friday-night-funkin
 
