@@ -29,6 +29,6 @@ FNF Sky Team (Only 1)
 * bbpanzu
 
 Original Creators The Friday Night Funkin
-* ninjamuffin99 (me!) - Programmer
+* ninjamuffin99 - Programmer
 * PhantomArcade3K and Evilsk8r - Art
 * Kawaisprite - Musician
